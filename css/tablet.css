@@ -1,0 +1,508 @@
+/* Tablet View Screen */
+
+/* General Style */
+html {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50%;
+}
+
+.navmenu-cont {
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.navmenu-cont .navbrand-shop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    gap: 2rem;
+}
+
+.navmenu-cont .navbrand img{
+    max-width: 12rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Main */
+main {
+    padding: 0 4rem;
+}
+
+main svg {
+    width: 2rem;
+    fill: #fff;
+}
+
+/* Travel Advisory */
+.travel-advisory {
+    padding: 2rem 0 4rem 0;
+}
+
+.travel-advisory-container {
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 3rem;
+}
+
+.travel-advisory-container h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.travel-advisory-container p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+/* Location Search */
+.location-search .location-search-container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-search .search-navlinks {
+    padding: 1rem 0 1rem 0;
+    border: 1px solid #d1cece;
+    border-radius: 2rem 2rem 0 0;
+    border-bottom: none;
+    margin: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.location-search .search-form-add-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid #d1cece;
+    border-radius: 0 0 2rem 2rem;
+    margin: 0;
+    padding: 2rem;
+}
+
+.location-search .search-navlinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-search .search-navlinks a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 1rem;
+}
+
+.location-search .search-navlinks a:hover{
+    border-bottom: 0.2rem solid #1668e3;
+}
+
+.location-search .search-navlinks a:focus{
+    border-bottom: 0.2rem solid #1668e3;
+    color: #1668e3;
+}
+
+.location-search .location-search-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location-search .input-group-cont input{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    background-color: #fff;
+    color: #191e3b;
+    border: 0.1rem solid #818494;
+    border-radius: 0.8rem;
+    padding: 2rem 0 1rem 4rem;
+    width: 23vw;
+}
+
+.location-search .input-group-cont input::placeholder{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #0C0E1C;
+}
+
+.location-search .input-group-cont input[type='date']::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.location-search .input-group-cont span svg{
+    fill: #000;
+}
+
+.location-search .input-group-cont {
+    position: relative;
+}
+
+.location-search .input-group-cont span {
+    position: absolute;
+    left: 1rem;
+    top: 30%;
+}
+
+.location-search .input-group-cont .location {
+    position: absolute;
+    left: 1rem;
+    top: 40%;
+}
+
+.location-search .input-group-cont label {
+    position: absolute;
+    left: 4rem;
+    top: 10%;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #191e3b;
+}
+
+.location-search .input-search-button button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 4rem;
+}
+
+.location-search .add-car-flight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 4rem;
+}
+
+.location-search .add-car-flight label{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+}
+
+.location-search .add-car-flight label{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+}
+
+/* Discount */
+.discount {
+    padding: 4rem 0 4rem 0;
+}
+
+.discount .discount-image img {
+    width: 5rem;
+}
+
+.discount-container{
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 2rem;
+}
+
+.discount .discuount-signin-learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Discover */
+.discovery .discover-container .cities {
+    overflow-x: scroll;
+    /* width: 100vw; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.cities .city-card {
+    /* max-width: 100%; */
+    width: 100rem;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1.5rem;
+    padding: 0 0 1rem 1rem;
+}
+
+/* Labor Gateway */
+
+/* Explore Destination */
+.explore-destination .destinations-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem 0 10rem 0;
+}
+
+.explore-destination .destinations-card-cont .card {
+    width: 206px;
+    height: 206px;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #e9e6e6;
+}
+
+/* Start Exploy destination key start */
+.explore-destination .explore-card-cont .heading-cont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.explore-destination .explore-card-cont .card-cont{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.vip-access {
+    background-color: #191E3B;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .card{
+    color: #fff;
+}
+
+.explore-destination .explore-card-cont .card-cont .text .reviews{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+.explore-destination .explore-card-cont .room-availability .ra-cont{
+    display: flex;
+    align-items: center;
+    background-color: #084db5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    gap: 0.5rem;
+    width: 12vw;
+}
+
+.explore-destination .explore-card-cont .sign-memeber {
+    margin: 3rem 0;
+}
+
+.explore-destination .explore-card-cont .sign-memeber a{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    padding: 0.6rem 1.5rem;
+    color: #fff;
+}
+/* End of explore destination deals */
+
+/*  Explore Stays */
+
+/* Exploy stays start */
+.explore-stay .explore-stays-container .explore-card-cont {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.explore-stay .explore-stays-container .explore-card-cont .card{
+    max-width: 300px;
+}
+
+.explore-stay .explore-stays-container .room-availability .ra-cont{
+    display: flex;
+    align-items: center;
+    background-color: #084db5;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    gap: 0.5rem;
+}
+
+.explore-stay .explore-stays-container .sign-memeber a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    border: 0.1rem solid #c1bebe;
+    border-radius: 2rem;
+    padding: 0.6rem 1.5rem;
+    color: #0d4eaf;
+}
+
+.explore-stay .explore-stays-container .sign-memeber a:hover{
+    background-color: #eff4fc;
+}
+/* End of explore stays */
+
+/* Adds */
+.explore-stay .explore-stays-container .adds {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6rem;
+    border: 1px solid #E8E6E6;
+    border-radius: 1rem;
+    margin: 10rem 0;
+}
+
+.explore-stay .explore-stays-container .adds .image{
+    flex: 1 1 200px;
+}
+
+.explore-stay .explore-stays-container .adds .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.explore-stay .explore-stays-container .adds .text{
+    flex: 1 1 200px;
+}
+
+.explore-stay .expedia-app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 1px solid #e9e6e6;
+    border-radius: 2rem;
+}
+
+.explore-stay .expedia-app .image {
+    flex: 1 1 20vw;
+}
+
+.explore-stay .expedia-app .image img{
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.explore-stay .expedia-app .text {
+    flex: 4 1;
+    padding: 2rem 0;
+}
+
+.explore-stay .expedia-app .Qrcode {
+    flex: 1 1 100px;
+    padding: 2rem 2rem 0 0;
+}
+
+.explore-stay .expedia-app .Qrcode img{
+    width: 100%;
+}
+
+.explore-stay .explore-places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.explore-stay .explore-places .card {
+    max-width: 320px;
+}
+
+.explore-stay .explore-stays-container .explore-beach-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8rem;
+    margin: 4rem 0;
+}
+
+
+.explore-stay .explore-beach-cont .card {
+    width: 75vh;
+    height: 50vh;
+}
+
+.explore-stay .explore-beach-cont .image {
+    min-height: 200px;
+}
+
+.explore-stay .explore-beach-cont .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* Footer */
+footer .footer-container {
+    padding: 10rem 4rem 5rem 4rem;
+}
+
+.footer-container .ft-cont .footer-navlinks .ul-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.footer-container .footer-middle .fm-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4rem;
+}

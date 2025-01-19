@@ -1,0 +1,314 @@
+/* Tablet View Screen */
+
+/* General Style */
+html {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42%;
+}
+
+.navmenu-cont {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.navmenu-cont .navbrand-shop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navmenu-cont .navbrand img{
+    max-width: 12rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Main */
+main {
+    padding: 0 2rem;
+}
+
+/* Travel Advisory */
+.travel-advisory {
+    padding: 2rem 0 2rem 0;
+}
+
+.travel-advisory-container {
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 3rem;
+}
+
+/* Location Search */
+.location-search .location-search-container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-search .search-navlinks {
+    padding: 1rem 0 1rem 0;
+    border: none;
+    border-radius: none;
+    border-bottom: 1px solid #d1cece;
+    margin: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.location-search .search-form-add-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: none;
+    border-radius: none;
+    margin: 0;
+    padding: 2rem;
+}
+
+.location-search .search-navlinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-search .search-navlinks a:hover{
+    border-bottom: 0.2rem solid #1668e3;
+}
+
+.location-search .search-navlinks a:focus{
+    border-bottom: 0.2rem solid #1668e3;
+    color: #1668e3;
+}
+
+.location-search .location-search-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location-search .input-group-cont input{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    background-color: #fff;
+    color: #191e3b;
+    border: 0.1rem solid #818494;
+    border-radius: 0.8rem;
+    padding: 2rem 0 1rem 4rem;
+    width: 60vw;
+}
+
+.location-search .input-search-button button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 4rem;
+    width: 60vw;
+}
+
+.location-search .add-car-flight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Discount */
+.discount {
+    padding: 4rem 0 4rem 0;
+}
+
+.discount .discount-image img {
+    width: 5rem;
+}
+
+.discount-container{
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 2rem;
+}
+
+.discount .discuount-signin-learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Discover */
+.discovery .discover-container .cities {
+    overflow-x: scroll;
+    display: flex;
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.cities .city-card {
+    width: 100rem;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1.5rem;
+    padding: 0 0 1rem 1rem;
+}
+
+/* Labor Gateway */
+.discovery .labor-gateway-cont {
+    background-image: url('https://a.travel-assets.com/travel-assets-manager/destu-40313/BEX-US-UK-CA-ROW-LongWkndsLaborDayLastMinMODs-HP-Hero-D-928x398.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    min-height: 70vh;
+}
+
+.discovery .labor-gateway {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: inherit;
+    padding-left: 5rem;
+}
+
+.discovery .labor-gateway-small {
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem 20rem 2rem 3rem;
+}
+
+.discovery .btn-cont button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 4rem;
+    display: none;
+}
+
+/* Explore Destination */
+.explore-destination .destinations-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem 0 10rem 0;
+}
+
+.explore-destination .destinations-card-cont .card {
+    width: 206px;
+    height: 206px;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #e9e6e6;
+}
+
+/* Start Exploy destination key start */
+
+/* End of explore destination deals */
+
+/*  Explore Stays */
+
+/* Exploy stays start */
+
+/* End of explore stays */
+
+/* Adds */
+.explore-stay .explore-stays-container .adds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    border: 1px solid #E8E6E6;
+    border-radius: 1rem;
+    margin: 10rem 0;
+}
+
+.explore-stay .explore-stays-container .adds .image{
+    flex: 1 1 200px;
+}
+
+.explore-stay .explore-stays-container .adds .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.explore-stay .explore-stays-container .adds .text{
+    flex: 1 1 200px;
+    padding: 1rem;
+}
+
+.explore-stay .expedia-app {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid #e9e6e6;
+    border-radius: 2rem;
+}
+
+.explore-stay .expedia-app .image {
+    flex: 1 1 20vw;
+}
+
+.explore-stay .expedia-app .image img{
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 2rem;
+}
+
+.explore-stay .expedia-app .text {
+    flex: 4 1;
+    padding: 2rem;
+}
+
+.explore-stay .expedia-app .Qrcode {
+    flex: 1 1 100px;
+    padding: 2rem 2rem 0 0;
+}
+
+.explore-stay .expedia-app .Qrcode img{
+    width: 100%;
+}

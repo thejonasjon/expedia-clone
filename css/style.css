@@ -1,0 +1,1120 @@
+/* Improt Font */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+
+/* General Style */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+.navmenu-cont {
+    padding: 2rem 18rem 2rem 12rem;
+    border-bottom: 1px solid #e9e6e6;
+    background-color: #fff;
+}
+.navmenu-cont svg {
+    width: 2rem;
+    font-size: 2rem;
+    line-height: 1.25rem;
+}
+
+.navmenu-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navmenu-cont .navbrand-shop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navmenu-cont .navbrand img{
+    max-width: 12rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+
+.navmenu-cont .navbar-links .navbar ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navmenu-cont a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.navmenu-cont a:hover{
+    color: #1668e3;
+    fill: #1668e3;
+}
+
+.navmenu-cont .get-a-app{
+    border: 0.03rem solid #9fc0f3;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5rem;
+}
+
+.navmenu-cont .get-a-app:hover{
+    background-color: #eef5fd;
+}
+
+.navmenu-cont .get-a-app svg{
+    fill: #1668e3;
+    width: 1.5rem;
+}
+
+/* Main */
+main {
+    padding: 0 12rem;
+}
+
+main svg {
+    width: 2rem;
+    fill: #fff;
+}
+
+/* Travel Advisory */
+.travel-advisory {
+    padding: 2rem 0 4rem 0;
+}
+
+.travel-advisory-container {
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 3rem;
+}
+
+.travel-advisory-container h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.travel-advisory-container p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+/* Location Search */
+.location-search .location-search-container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-search .search-navlinks {
+    padding: 1rem 0 1rem 0;
+    border: 1px solid #d1cece;
+    border-radius: 2rem 2rem 0 0;
+    border-bottom: none;
+    margin: 0;
+}
+
+.location-search .search-form-add-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid #d1cece;
+    border-radius: 0 0 2rem 2rem;
+    margin: 0;
+    padding: 2rem;
+}
+
+.location-search .search-navlinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-search .search-navlinks a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 1rem;
+}
+
+.location-search .search-navlinks a:hover{
+    border-bottom: 0.2rem solid #1668e3;
+}
+
+.location-search .search-navlinks a:focus{
+    border-bottom: 0.2rem solid #1668e3;
+    color: #1668e3;
+}
+
+.location-search .location-search-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location-search .input-group-cont input{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    background-color: #fff;
+    color: #191e3b;
+    border: 0.1rem solid #818494;
+    border-radius: 0.8rem;
+    padding: 2rem 0 1rem 4rem;
+    width: 23vw;
+}
+
+.location-search .input-group-cont input::placeholder{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #0C0E1C;
+}
+
+.location-search .input-group-cont input[type='date']::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.location-search .input-group-cont span svg{
+    fill: #000;
+}
+
+.location-search .input-group-cont {
+    position: relative;
+}
+
+.location-search .input-group-cont span {
+    position: absolute;
+    left: 1rem;
+    top: 30%;
+}
+
+.location-search .input-group-cont .location {
+    position: absolute;
+    left: 1rem;
+    top: 40%;
+}
+
+.location-search .input-group-cont label {
+    position: absolute;
+    left: 4rem;
+    top: 10%;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #191e3b;
+}
+
+.location-search .input-search-button button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 4rem;
+}
+
+.location-search .add-car-flight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 4rem;
+}
+
+.location-search .add-car-flight label{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+}
+
+.location-search .add-car-flight label{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+}
+
+/* Discount */
+.discount {
+    padding: 4rem 0 4rem 0;
+}
+
+.discount .discount-image img {
+    width: 5rem;
+}
+
+.discount-container{
+    background-color: #0C0E1C;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+    gap: 3rem;
+}
+
+.discount-container h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.discount-container p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.discount .discuount-signin-learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.discount .discuount-signin-learn-more button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+}
+
+.discount .discuount-signin-learn-more .small-p a {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #fff;
+}
+
+/* Discover */
+.discovery {
+    padding: 4rem 0;
+}
+
+.discovery .discover-container .heading h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #191e3b;
+}
+
+.discovery .discover-container .cities {
+    overflow-x: scroll;
+    overflow-inline: scroll;
+    display: flex;
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+.discovery .discover-container .resort {
+    background-image: url('/images/discovery/resort.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discovery .discover-container .ocean {
+    background-image: url('/images/discovery/ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discovery .discover-container .spa {
+    background-image: url('/images/discovery/spa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discovery .discover-container .hot {
+    background-image: url('/images/discovery/hot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discovery .discover-container .pet {
+    background-image: url('/images/discovery/pet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discovery .discover-container .cabin {
+    background-image: url('/images/discovery/cabin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cities .city-card {
+    width: 20vw;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1.5rem;
+    padding: 0 0 1rem 1rem;
+}
+
+.discovery .resort, .cabin, .pet, .hot, .spa, .ocean {
+    position: relative;
+}
+
+.discovery .card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    left: 0;
+    bottom: 0;
+    border-radius: 1.5rem;
+    z-index: 1;
+}
+
+.discovery .discover-container .cities .city-text {
+    position: relative;
+    z-index: 2;
+}
+
+.discovery .discover-container .cities .city-text p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.discovery .labor-gateway-cont {
+    background-image: url('https://a.travel-assets.com/travel-assets-manager/destu-40313/BEX-US-UK-CA-ROW-LongWkndsLaborDayLastMinMODs-HP-Hero-D-928x398.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    min-height: 70vh;
+}
+
+.discovery .labor-gateway {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: inherit;
+    padding-left: 5rem;
+}
+
+.discovery .labor-gateway-small {
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+}
+
+.discovery .labor-gateway-cont .text h4{
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: #191e3b;
+}
+
+.discovery .labor-gateway-cont .text p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #191e3b;
+    margin: 2rem 0;
+}
+
+.discovery .btn-cont button {
+    outline: none;
+    border: none;
+    background-color: #1668e3;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 4rem;
+}
+
+.discovery .btn-cont button:hover {
+    background-color: #1c55aa;
+}
+
+/* Explore Destination */
+.explore-destination .heading h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #191e3b;
+}
+
+.explore-destination .destinations-card-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 2rem 0 10rem 0;
+}
+
+.explore-destination .destinations-card-cont .card {
+    max-width: 260px;
+    height: 220px;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #e9e6e6;
+}
+
+.explore-destination .destinations-card-cont .card .image img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+.explore-destination .destinations-card-cont .card .text {
+    padding: 1.5rem 1rem;
+}
+
+.explore-destination .destinations-card-cont .card .text h5 {
+    font-size: 1.6rem;
+    color: #191e3b;
+}
+
+.explore-destination .destinations-card-cont .card .text p {
+    font-size: 1.4rem;
+    color: #191e3b;
+}
+
+/* Start Exploy destination key start */
+.explore-destination .explore-card-cont{
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/mediaasset/714087-0_2-BEX_GO_Alps_Therin-00539RGB.jpg?impolicy=fcrop&w=1200&h=514&p=1&q=high');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 4rem 2rem 4rem;
+    margin: 10rem 0;
+    border-radius: 2.5rem;
+    position: relative;
+}
+
+.explore-destination .explore-card-cont .explore-overlay {
+    background-color: #2B5D5D;
+    opacity: 0.85;
+    border-radius: 2.5rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.explore-destination .explore-card-cont > .heading-cont, .card-cont {
+    position: relative;
+    z-index: 2;
+}
+
+.explore-destination .explore-card-cont .heading-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-destination .explore-card-cont .heading h4 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #fff;
+}
+
+.explore-destination .explore-card-cont .heading p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.explore-destination .explore-card-cont .heading p span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+.explore-destination .explore-card-cont .see-all a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #0d4eaf;
+    padding: 0.6rem 1.5rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.explore-destination .explore-card-cont .card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .card{
+    max-width: 34vh;
+}
+
+.explore-destination .explore-card-cont .card-cont .card .image{
+    width: 100%;
+    position: relative;
+}
+
+.vip-access {
+    background-color: #191E3B;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .card{
+    color: #fff;
+}
+
+.explore-destination .explore-card-cont .card-cont .text .reviews{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+.explore-destination .explore-card-cont .card-cont .text .reviews .number{
+    font-size: 1.2rem;
+    background-color: #21794F;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .text .reviews .review-category{
+    font-size: 1.6rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .text .reviews .total-review{
+    font-size: 1.1rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .text-city{
+    margin: 1rem 0;
+}
+
+.explore-destination .explore-card-cont .card-cont .text-city h5{
+    font-size: 1.6rem;
+}
+
+.explore-destination .explore-card-cont .card-cont .text-city p{
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.explore-destination .explore-card-cont .card-cont .booking-details {
+    margin: 1rem 0;
+}
+
+.explore-destination .explore-card-cont .card-cont .booking-details .amount{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.explore-destination .explore-card-cont .card-cont .booking-details .amount .splash{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.explore-destination .explore-card-cont .card-cont .booking-text{
+    margin: 1rem 0;
+}
+
+.explore-destination .explore-card-cont .card-cont .booking-text p{
+    font-size: 1.2rem;
+    padding: 0.2rem 0;
+}
+
+.explore-destination .explore-card-cont .room-availability .ra-cont{
+    display: flex;
+    align-items: center;
+    background-color: #084db5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    gap: 0.5rem;
+    width: 12vw;
+}
+
+.explore-destination .explore-card-cont .sign-memeber {
+    margin: 3rem 0;
+}
+
+.explore-destination .explore-card-cont .sign-memeber a{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6rem;
+    border-radius: 2rem;
+    padding: 0.6rem 1.5rem;
+    color: #fff;
+}
+/* End of explore destination deals */
+
+
+/*  Explore Stays */
+.explore-stay .explore-stays-container .heading h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #191e3b;
+}
+
+.explore-stay .explore-stays-container .heading p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+}
+
+/* Exploy stays start */
+.explore-stay .explore-stays-container .explore-card-cont {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.explore-stay .explore-stays-container .explore-card-cont .card{
+    max-width: 20vw;
+}
+
+.explore-stay .explore-stays-container .explore-card-cont .card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.explore-stay .explore-stays-container .text .reviews{
+    color: #191e3b;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.explore-stay .explore-stays-container .text .reviews .number{
+    font-size: 1.2rem;
+    background-color: #21794F;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    color: #fff;
+}
+
+.explore-stay .explore-stays-container .text .reviews .review-category{
+    font-size: 1.6rem;
+}
+
+.explore-stay .explore-stays-container .text .reviews .total-review{
+    font-size: 1.1rem;
+}
+
+.explore-stay .explore-stays-container .text-city{
+    margin: 1rem 0;
+}
+
+.explore-stay .explore-stays-container .text-city h6{
+    font-size: 1.6rem;
+}
+
+.explore-stay .explore-stays-container .text-city p{
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+
+.explore-stay .explore-stays-container .booking-details {
+    margin: 1rem 0;
+}
+
+.explore-stay .explore-stays-container .booking-details .amount{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.explore-stay .explore-stays-container .booking-details .amount .splash{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+    text-decoration: line-through;
+}
+
+.explore-stay .explore-stays-container .booking-text{
+    margin: 1rem 0;
+}
+
+.explore-stay .explore-stays-container .booking-text p{
+    font-size: 1.2rem;
+    color: #191e3b;
+    padding: 0.2rem 0;
+}
+
+.explore-stay .explore-stays-container .room-availability .ra-cont{
+    display: flex;
+    align-items: center;
+    background-color: #084db5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    gap: 0.5rem;
+    width: 12vw;
+}
+
+.explore-stay .explore-stays-container .sign-memeber {
+    margin: 3rem 0;
+}
+
+.explore-stay .explore-stays-container .sign-memeber a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    border: 0.1rem solid #c1bebe;
+    border-radius: 2rem;
+    padding: 0.6rem 1.5rem;
+    color: #0d4eaf;
+}
+
+.explore-stay .explore-stays-container .sign-memeber a:hover{
+    background-color: #eff4fc;
+}
+/* End of explore stays */
+
+/* Adds */
+.explore-stay .explore-stays-container .adds {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6rem;
+    border: 1px solid #E8E6E6;
+    border-radius: 1rem;
+    margin: 10rem 0;
+}
+
+/* .explore-stay .explore-stays-container .adds .image{
+    flex: 1 1 10vw;
+    height: 25vh;
+    overflow: hidden;
+} */
+
+.explore-stay .explore-stays-container .adds .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.explore-stay .explore-stays-container .adds .text{
+    flex: 1 1 10vw;
+
+}
+
+.explore-stay .explore-stays-container .adds .text h4{
+    font-size: 2rem;
+    line-height: 1.6rem;
+}
+
+.explore-stay .explore-stays-container .adds .text p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin: 1rem 0;
+}
+
+.explore-stay .explore-stays-container .heading p span{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #000000;
+}
+
+.explore-stay .expedia-app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 1px solid #e9e6e6;
+    border-radius: 2rem;
+}
+
+.explore-stay .expedia-app .image {
+    flex: 1 1 20vw;
+}
+
+.explore-stay .expedia-app .image img{
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.explore-stay .expedia-app .text {
+    flex: 4 1;
+    padding: 2rem 0;
+}
+
+.explore-stay .expedia-app .Qrcode {
+    flex: 1 1;
+    padding: 2rem 2rem 0 0;
+
+}
+
+.explore-stay .expedia-app .Qrcode img{
+    max-width: 100%;
+}
+
+.explore-stay .expedia-app .text h4{
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: #191e3b;
+}
+
+.explore-stay .expedia-app .text p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #191e3b;
+    padding: 2rem 0 4rem 0;
+}
+
+.explore-stay .expedia-app .text .scan{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #191e3b;
+}
+
+.explore-stay .explore-places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore-stay .explore-places .card {
+    max-width: 25vw;
+}
+
+.explore-stay .explore-places .image img {
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.explore-stay .explore-places .card .text h5{
+    font-size: 1.5rem;
+    color: #959595;
+}
+
+.explore-stay .explore-places .card .text{
+    padding: 1rem 0 0 0;
+}
+
+.explore-stay .explore-places .card .text p{
+    font-size: 1.5rem;
+    color: #030303;
+    padding: 0.5rem 0;
+}
+
+
+.explore-stay .explore-stays-container .explore-beach-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+
+.explore-stay .explore-beach-cont .card {
+    width: 75vh;
+    height: 50vh;
+}
+
+.explore-stay .explore-beach-cont .image {
+    max-width: 100%;
+    height: 45vh;
+}
+
+.explore-stay .explore-beach-cont .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.explore-stay .explore-beach-cont .card .text h5{
+    font-size: 1.5rem;
+    color: #959595;
+}
+
+.explore-stay .explore-beach-cont .card .text{
+    padding: 1rem 0 0 0;
+}
+
+.explore-stay .explore-beach-cont .card .text p{
+    font-size: 1.5rem;
+    color: #030303;
+    padding: 0.5rem 0;
+}
+
+/* Footer */
+footer .footer-container {
+    padding: 10rem 12rem 5rem 12rem;
+}
+
+.footer-container > .footer-top {
+    margin-bottom: 6rem;
+}
+
+footer .footer-container .ft-navbar {
+    border-bottom: 1px solid #eeecec;
+    padding-bottom: 1rem;
+}
+
+footer .footer-container .ft-navbar ul li {
+    padding: 1rem 0 0 1rem;
+}
+
+footer .footer-container .ft-navbar ul li a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #1668e3;
+}
+
+footer .footer-container .ft-navbar ul li a:focus {
+    text-decoration: 2px underline;
+    text-underline-offset: 1.5rem;
+}
+
+.footer-container > .footer-middle {
+    margin-bottom: 2rem;
+}
+
+footer .footer-container .footer-top .ft-cont {
+    height: 25vh;
+    overflow-y: scroll;
+}
+
+.footer-container .ft-cont .footer-navlinks .ul-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.footer-container .ft-cont .footer-navlinks .ul-cont ul{
+    flex: 1 1;
+}
+
+.footer-container .footer-navlinks h4 {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #191e3b;
+    margin: 1rem 0;
+}
+
+.footer-container .footer-navlinks ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-container .footer-navlinks ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #1668e3;
+}
+
+footer .footer-container .expedia-footer-logo {
+    margin-bottom: 2rem;
+}
+
+
+.footer-container .footer-middle .footer-navlinks h4 {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #191e3b;
+    margin-bottom: 2rem;
+}
+
+.footer-container .footer-middle .footer-navlinks ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-container .footer-middle .footer-navlinks ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #1668e3;
+}
+
+.footer-container .footer-navlinks ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-container .footer-middle .fm-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .footer-container hr{
+    border: 1px solid #E8E6E6;
+}
+
+footer .footer-container .footer-bottom p{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #191e3b;
+    margin-top: 2.5rem;
+}
